@@ -1,0 +1,16 @@
+{
+  "name": "utils_lib",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "check:types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.9.1"
+  }
+}
