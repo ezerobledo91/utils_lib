@@ -1,4 +1,3 @@
 export const fn = (someParameter: string): void => {
-    console.log('someParameter', someParameter)
-  }
-  
+  console.log('someParameter', someParameter)
+}
